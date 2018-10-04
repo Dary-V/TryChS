@@ -1,0 +1,146 @@
+.App {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.main-header {
+  margin-top: 0px;
+  position: relative;
+  display: inline;
+  top: 100px;
+  left: 155px;
+  font-family: "helvetica";
+  font-size: 60px;
+  color: rgb(122, 56, 41);
+  display: flex;
+  cursor: pointer;
+}
+
+.header-container {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 370px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./images/better-laptop.jpg');
+}
+
+.soft-word {
+  color: rgb(247, 237, 192);
+}
+
+p {
+  font-family: "helvetica";
+  font-size: 30px;
+}
+
+
+.with-main {
+  margin-top: 0px;
+  display: inline;
+  position: absolute;
+  right: 20px;
+}
+
+.button-bar {
+  margin-top: 5px;
+  color: rgb(104, 53, 43);
+  font-size: 16px;
+}
+
+.img-container {
+  float: left;
+  
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-image: url('./hands.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 660px;
+}
+
+.with-main-left {
+  margin-top: 0px;
+  max-height: 20px;
+  max-width: 20px;
+  display: inline;
+  position: relative;
+
+}
+
+.content-title {
+  font-size: 36px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.left-content {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "helvetica";
+  font-size: 19px;
+  text-align: left;
+}
+
+.right-content {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-family: "helvetica";
+  font-size: 19px;
+  text-align: right;
+}
+
+
+.left-text {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: "helvetica";
+  font-size: 19px;
+  text-align: left;
+}
+
+.right-text {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-family: "helvetica";
+  font-size: 19px;
+  text-align: right;
+}
+
+.img-right {
+  position: absolute;
+  right: 100px;
+}
+
+.img-left {
+  position: absolute;
+  left: 100px;
+}
+
+.inline-div{
+  display: inline-block;
+}
+
+
+.no-decoration-link {
+  text-decoration: none;
+}
+
+.servant {
+  background-color: rgb(51, 61, 89);
+}

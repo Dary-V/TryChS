@@ -1,0 +1,32 @@
+// Color schema
+
+$palettes: (
+  'main': (
+    'darkest': #526264,
+    'dark': #697D7F,
+    'base': #8a9ea0,
+    'light': #b1c5c7,
+    'lightest': #d3e7e9
+  ),
+  'accent': (
+    'darkest': #a79d42,
+    'dark': #d8cd57,
+    'base': #f7ec60,
+    'light': #fef360,
+    'lightest': #feff98
+  ),
+  'dark': (
+    'darkest': #000000,
+    'dark': #080810,
+    'base': #101220,
+    'light': #11202f,
+    'lightest': #17354a
+  ),
+  'distinguish': (
+    'darkest': #911e32,
+    'dark': #b5263d,
+    'base': #d12740,
+    'light': #ee2e4e,
+    'lightest': #ff5663
+  )
+);

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.scss';
+import PropTypes from 'prop-types'
 
 export class BlockContent extends React.Component {
 	render() {
@@ -39,3 +39,18 @@ export class BlockContent extends React.Component {
 		);
 	}
 }
+
+BlockContent.defaultType = {
+  className: PropTypes.string,
+  id: PropTypes.string,
+  imgLocation: PropTypes.string,
+  contentClassName: PropTypes.string
+}
+
+BlockContent.defaultProps = {
+  className: '',
+  id: '',
+  imgLocation: '',
+  contentClassName: ''
+}
+

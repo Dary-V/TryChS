@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  .col-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+    height: auto;
+  }
+}

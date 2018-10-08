@@ -1,0 +1,29 @@
+.content-block {
+  .content-title {
+    font-size: 36px;
+    color: color(dark, base);
+    font-family: 'Permanent Marker', cursive;
+    display: inline;
+    border-bottom: 2px solid color(accent, base);
+    //margin-left: 20px;
+    //margin-right: 20px;
+
+    // We can use shortened record here
+    margin: 0 20px;
+  }
+  .container {
+    .image {
+      img {
+        max-width: 90%;
+        margin: 20px 0;
+      }
+      .wave {
+        transform: rotate(180deg);
+      }
+    }
+    p {
+      color: color(dark, light);
+      font-family: 'Zilla Slab', serif;
+    }
+  }
+}

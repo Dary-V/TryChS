@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './App.scss';
-import { HeaderButton } from './components/header_button.js';
+// import { HeaderButton } from './components/header_button.js';
 import { ButtonBar } from './components/header_button_bar.js';
 import { MenuButton } from './components/menu_icon_button.js';
-import { BlockContent } from './components/content_block.js';
+import { BlockContent } from './components/ContentBlock/ContentBlock.js';
 
 import Button from '@material-ui/core/Button';
 import { library } from '@fortawesome/fontawesome-svg-core'

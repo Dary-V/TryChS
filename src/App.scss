@@ -1,8 +1,22 @@
+// Common
+@import "scss/general.scss";
+@import "scss/variables.scss";
+@import "scss/functions.scss";
+@import "scss/normalize.scss";
+
+// Fonts
+@import "scss/fonts.scss";
+
+// Components
+@import "components/ContentBlock/ContentBlock.scss";
+
 .App {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
+  // Example of using color variable
+  background: color(main, darkest);
 }
 
 .main-header {
@@ -10,12 +24,16 @@
   position: relative;
   display: inline;
   top: 100px;
-  left: 155px;
   font-family: "helvetica";
   font-size: 60px;
-  color: rgb(122, 56, 41);
-  display: flex;
+  color: color(distinguish, base);
+
+  // Why do we have 2 display properties here?
+  //display: flex;
   cursor: pointer;
+  .soft-word {
+    color: color(main, light);
+  }
 }
 
 .header-container {
@@ -27,10 +45,6 @@
   background-size: cover;
   background-position: center;
   background-image: url('./images/better-laptop.jpg');
-}
-
-.soft-word {
-  color: rgb(247, 237, 192);
 }
 
 p {
@@ -48,7 +62,7 @@ p {
 
 .button-bar {
   margin-top: 5px;
-  color: rgb(104, 53, 43);
+  color: color(distinguish, dark);
   font-size: 16px;
 }
 
@@ -77,11 +91,11 @@ img {
 
 }
 
-.content-title {
-  font-size: 36px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+//.content-title {
+//  font-size: 36px;
+//  margin-left: 20px;
+//  margin-right: 20px;
+//}
 
 .left-content {
   position: relative;
@@ -115,21 +129,22 @@ img {
 .right-text {
   display: inline-block;
   position: relative;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin: 20px;
   font-family: "helvetica";
   font-size: 19px;
   text-align: right;
 }
 
 .img-right {
-  position: absolute;
-  right: 100px;
+  //position: absolute;
+  //right: 100px;
+  order: 1;
 }
 
 .img-left {
-  position: absolute;
-  left: 100px;
+  //position: absolute;
+  //left: 100px;
+  order: 0;
 }
 
 .inline-div{
